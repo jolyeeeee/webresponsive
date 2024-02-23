@@ -1,0 +1,103 @@
+#header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#portofolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project {
+    width: 100%;
+    margin: 40%;
+    padding: 50%;
+    border: 2px solid #ccc;
+}
+
+.project img {
+    width: 100%;
+    height: 80%;
+}
+
+#contact {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    color: #e73c3c;
+}
+
+/* Media queries */
+
+/*laptop */
+@media (max-width: 1366px){
+    .project{
+        width: 20%;
+        margin: 10px;
+        padding: 5px;
+    }
+    
+    .project img{
+        width: 100%;
+        height: 70%;
+    }
+}
+
+/* tablet */
+@media (max-width: 700px) {
+    .project {
+        width: 50%;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .project imgh{
+        width: 100px;
+        height: 70px;
+    }
+}
+
+/* mobile phone */
+@media (max-width: 600px) {
+    .project {
+        width: 70%;
+        margin: 10px;
+        padding: 5px;
+      }
+    
+      .project img {
+        width: 100%;
+        height: 70%;
+      }
+    
+      #header h1 {
+        font-size: 1.5rem;
+      }
+    
+      #header p {
+        font-size: 0.8rem;
+      }
+    
+      #contact h2 {
+        font-size: 1.2rem;
+      }
+    
+      #contact p {
+        font-size: 0.8rem;
+      }
+    }
